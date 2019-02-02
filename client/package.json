@@ -1,11 +1,8 @@
 {
   "name": "reading-list",
   "version": "1.0.0",
-  "engines": {
-    "node": "8.12.0",
-  },
   "description": "Reading List using Google Books API and mongoDB",
-  "private": false,
+  "private": true,
   "proxy": "http://localhost:3001/",
   "dependencies": {
     "bootstrap": "^4.2.1",
