@@ -1,9 +1,6 @@
 import axios from "axios";
-var keys = require("../../../keys");
 
-//const apiKey = "AIzaSyB_1xEW-SARUv801bA0uiiozdtcbLcXf54";
-const apiKey = keys.apiKey;
-
+const apiKey = "AIzaSyB_1xEW-SARUv801bA0uiiozdtcbLcXf54";
 
 export default {
   getGoogleBooks: function (book) {
