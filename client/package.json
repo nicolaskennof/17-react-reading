@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "engines": {
     "node": "8.12.0",
-    "yarn": "1.13.0"
+    "yarn": "1.13.0",
+    "npm": "6.4.1"
   },
   "description": "Reading List using Google Books API and mongoDB",
   "private": false,
