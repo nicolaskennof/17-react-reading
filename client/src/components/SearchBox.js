@@ -1,14 +1,19 @@
 import React from "react";
-import { Jumbotron, Form, FormControl, Button } from 'react-bootstrap';
+import { Jumbotron, Form, FormControl, Button, Container } from 'react-bootstrap';
 
 function SearchBox(props) {
     return (
-        <Jumbotron>
-            <Form inline>
-                <FormControl onChange={props.handleSearchChange} value={props.textSearch} type="text" placeholder="Search" className="mr-sm-2" />
-                <Button onClick={() => props.handleSearchClick()} variant="outline-primary">Search</Button>
-            </Form>
-        </Jumbotron>
+        <Container>
+            <Jumbotron>
+                <Container>
+                    <Form className="text-center">
+                        <FormControl onChange={props.handleSearchChange} value={props.textSearch} type="text" placeholder="Search for your desired title here..." className="mr-sm-2 searchBar" />
+                        <br />
+                        <Button onClick={() => props.handleSearchClick()} variant="outline-dark">Search Now!</Button>
+                    </Form>
+                </Container>
+            </Jumbotron>
+        </Container>
     )
 }
 

@@ -1,4 +1,19 @@
 .bookImg {
-    width: 200px;
-    height: 150px
+    width: 100%;
+}
+
+.bookDetails {
+    float: left
+}
+
+.btn-save {
+    margin-left: 25px;
+}
+
+a {
+    color: darkgray;
+}
+
+a:hover {
+    color: #5b5b5b;
 }

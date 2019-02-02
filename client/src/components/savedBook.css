@@ -1,0 +1,11 @@
+.bookImg {
+    width: 100%;
+}
+
+.bookDetails {
+    float: left
+}
+
+.btn-delete {
+    margin-left: 25px;
+}

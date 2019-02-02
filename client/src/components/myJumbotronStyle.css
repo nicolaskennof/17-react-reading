@@ -1,0 +1,10 @@
+.header{
+    background-image: url("./jumboBack.jpg");
+    text-align: center
+}
+
+.headerDiv{
+    background-color: #ffffff;
+    width: 35%;
+    margin: auto;
+}
