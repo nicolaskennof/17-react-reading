@@ -1,29 +1,20 @@
-# Create React Express App
+# 17-React Reading List
+Build your reading list!
 
-## About This Boilerplate
+## Table of contents:
+1. What is the page about?
+2. How to get started?
+3. Who maintains and contributes?
 
-This setup allows for a Node/Express/React app which can be easily deployed to Heroku.
+### 1. What is the app about?
+React Reading List is a react app connected to the Google Books API.
 
-The front-end React app will auto-reload as it's updated via webpack dev server, and the backend Express app will auto-reload independently with nodemon.
+### 2. How to get started?
+Please visit https://googlebooksreadinglist.herokuapp.com/ and start by searching for a book. Once you have done your search you can view each item or save them. In the saved tab, you´ll see your reading list and have the possibility to delete items as you read your books.
 
-## Starting the app locally
+### 3. Who maintains and contributes?
+Nicolas Kennof is the main contributor to this project.
 
-Start by installing front and backend dependencies. While in this directory, run the following command:
+Contact email: [nicolas.kennof@gmail.com](mailto:nicolas.kennof@gmail.com)
 
-```
-yarn install
-```
-
-This should install node modules within the server and the client folder.
-
-After both installations complete, run the following command in your terminal:
-
-```
-yarn start
-```
-
-Your app should now be running on <http://localhost:3000>. The Express server should intercept any AJAX requests from the client.
-
-## Deployment (Heroku)
-
-To deploy, simply add and commit your changes, and push to Heroku. As is, the NPM scripts should take care of the rest.
+!!!!Thank you for using React Reading List!!!!
